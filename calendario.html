@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calendário · Jpyter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html">Jpyter</a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="musicas.html">Músicas</a></li>
+        <li><a href="estudos.html">Estudos</a></li>
+        <li><a href="anotacoes.html">Anotações</a></li>
+        <li><a href="calendario.html" aria-current="page">Calendário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="calendario">
+      <h1>Calendário</h1>
+      <nav aria-label="Visualização">
+        <button>Diário</button> <button>Semanal</button> <button>Mensal</button>
+      </nav>
+      <table>
+        <thead><tr><th>Dom</th><th>Seg</th><th>Ter</th><th>Qua</th><th>Qui</th><th>Sex</th><th>Sáb</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <form id="evento">
+        <input type="date" name="data">
+        <input type="text" name="titulo">
+        <textarea name="descricao"></textarea>
+        <input type="color" name="cor">
+        <button type="submit">Salvar</button> <button type="button">Excluir</button>
+      </form>
+    </section>
+  </main>
+
+  <footer><p>Jpyter</p></footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

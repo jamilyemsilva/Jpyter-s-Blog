@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anotações · Jpyter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html">Jpyter</a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="musicas.html">Músicas</a></li>
+        <li><a href="estudos.html">Estudos</a></li>
+        <li><a href="anotacoes.html" aria-current="page">Anotações</a></li>
+        <li><a href="calendario.html">Calendário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="anotacoes">
+      <h1>Anotações</h1>
+      <form id="novo-post">
+        <input type="text" name="titulo">
+        <input type="file" name="capa">
+        <textarea name="descricao"></textarea>
+        <input type="date" name="data">
+        <button type="submit">Publicar</button>
+      </form>
+      <article><h2>Título</h2><time datetime="">Data</time><p>Descrição</p><button>Editar</button> <button>Excluir</button></article>
+    </section>
+  </main>
+
+  <footer><p>Jpyter</p></footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

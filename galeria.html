@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeria · Jpyter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html">Jpyter</a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="galeria.html" aria-current="page">Galeria</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="musicas.html">Músicas</a></li>
+        <li><a href="estudos.html">Estudos</a></li>
+        <li><a href="anotacoes.html">Anotações</a></li>
+        <li><a href="calendario.html">Calendário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="galeria">
+      <h1>Galeria</h1>
+      <button>Novo álbum</button>
+      <article>
+        <h2>Nome do álbum</h2>
+        <p>Descrição</p>
+        <button>Entrar</button> <button>Excluir</button>
+        <figure><img src="img/" alt=""><figcaption>Descrição · data</figcaption></figure>
+        <button>Nova foto</button> <button>Editar foto</button> <button>Mover foto</button>
+      </article>
+      <form id="upload-foto">
+        <input type="file" name="foto">
+        <input type="text" name="descricao">
+        <input type="date" name="data">
+        <select name="album"></select>
+        <select name="musica"></select>
+        <button type="submit">Postar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer><p>Jpyter</p></footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
